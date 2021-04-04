@@ -1,0 +1,41 @@
+.box-div-c-p {
+    width: 700px;
+    height: 500px;
+    background-color: #ff0000;
+    box-shadow: 5px 5px var(--shadow);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    position: fixed;
+    z-index: 1000000;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    border: 5px solid #ffaaff;
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+.box-div-c-p.show-p {
+    visibility: visible;
+}
+.x-box-btn-c-p {
+    display: flex;
+    margin-left: auto;
+    background: transparent;
+    border: none;
+    font-size: 50px;
+    justify-content: flex-end;
+    text-align: right;
+    align-items: flex-end;
+    color: #000000;
+}
+.x-box-btn-c-p:active {
+    color: #ffffff;
+}

@@ -1,0 +1,83 @@
+:root {
+  --your-messages-background-color: rgb(66, 99, 255);
+  --messages-background-color: rgb(0, 0, 0, 0.1);
+  --text-letter-px: 12px;
+  --rgba-from: rgba(0, 0, 0, 0.25);
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+#messages {
+  width: 100vw;
+  height: 80vh;
+  background-color: var(--background-color);
+  overflow: hidden;
+}
+.message {
+  min-width: 120px;
+  max-width: 1000px;
+  position: absolute;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 55px;
+}
+.your-message {
+  position: relative;
+  background-color: var(--your-messages-background-color);
+  right: 20px;
+  margin-left: auto;
+  color: #ffffff;
+}
+.not-your-message {
+  position: relative;
+  background-color: var(--messages-background-color);
+  left: 15px;
+  margin-right: auto;
+}
+.from-you {
+  width: 250px;
+  color: var(--rgba-from);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 20px;
+  bottom: 0;
+  margin-left: auto;
+  background: transparent;
+}
+.from {
+  width: 250px;
+  color: var(--rgba-from);
+  position: relative;
+  top: 0;
+  left: 5px;
+  right: 0;
+  bottom: 0;
+  margin-right: auto;
+  background: transparent;
+}
+#message {
+  background-color: #ddd;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 100;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#text-message {
+  height: 50px;
+  width: 650px;
+  text-align: left;
+  margin-right: auto;
+  position: relative;
+  right: 25vmin;
+  font-size: 30px;
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 5px solid #000000;
+  overflow-x: scroll;
+}

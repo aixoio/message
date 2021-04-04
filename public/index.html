@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Message - Home</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/box.css">
+    <style media="screen">
+      body {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #message {
+        overflow-y: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Message</h1>
+    <div id="join">
+      <br>
+      <input type="text" placeholder="Enter Your Full Name..." id="join-dev-in">
+      <br><br>
+      <li style="color: #ff0000;" id="bands-error-show-join-dev"></li>
+      <br><br>
+      <button type="button" class="blue" style="width: 15vw; height: 5vh; font-size: 15px;" id="join-div-join">
+        <img src="/images/join.svg" alt="join-btn" width="16" height="16">
+        Join
+      </button>
+      <button type="button" class="green" style="width: 15vw; height: 5vh; font-size: 15px;" id="login-div-join">
+        <img src="/images/login.svg" alt="login-btn" width="16" height="16">
+        Login
+      </button>
+      <br>
+    </div>
+    <div id="signed-in">
+      <br>
+      <div id="messages"></div>
+      <div id="message">
+        <input type="text" id="text-message" placeholder="Message" style="position: absolute; top: 20px; left: 50px;" maxlength="100">
+        <button type="button" class="blue" id="send-btn-code-message" style="width: 15vw; height: 5vh; font-size: 15px; position: absolute; top: 25px; left: 800px;" id="send-div-sign">
+          <img src="/images/send.svg" alt="exit-btn" width="16" height="16">
+          Send
+        </button>
+        <button type="button" class="red" style="width: 15vw; height: 5vh; font-size: 15px; position: absolute; top: 25px; left: 1000px;" id="exit-div-sign">
+          <img src="/images/exit.svg" alt="exit-btn" width="16" height="16">
+          Exit
+        </button>
+      </div>
+      <br>
+    </div>
+    <div class="box-div-c-p" style="border-color: #000000; background: rgb(88, 95, 99)">
+      <button type="button" class="x-box-btn-c-p">
+        <img src="/images/close.svg" alt="close-btn">
+      </button>
+      <h1 style="color: #ffffff;" class="band-r-p-s-t-s"></h1>
+    </div>
+  </body>
+  <footer>
+    <script src="/js/main.js" charset="utf-8"></script>
+    <script src="/js/box.js" charset="utf-8"></script>
+    <script src="/js/message.js" charset="utf-8"></script>
+    <script src="/js/display.js" charset="utf-8"></script>
+    <script src="/js/index.js" charset="utf-8"></script>
+  </footer>
+</html>
